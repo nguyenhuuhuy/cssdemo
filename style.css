@@ -29,10 +29,10 @@ li:hover {
 ul ul {
     position: absolute;
     top: 0;
-    left: 140px;
+    left: 130px;
     visibility: hidden;
 }
 ul li:hover ul {
     visibility: visible;
-    z-index: 999;
+        z-index: 999;
 }
