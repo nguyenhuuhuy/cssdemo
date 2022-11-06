@@ -11,7 +11,7 @@
   top: auto;
   float: left;
   z-index: 999;
-  background-color: beige;
+  background-color: white;
   top: 0px;
 }
 .menu_logo {
@@ -24,73 +24,231 @@
   left: 25px;
   border-radius: 50% 50%;
 }
+.menu_logo_1{
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    top: 10px;
+    left: 525px;
+    border-radius: 50% 50%;
+  }
 .menu_gg {
-  width: 200px;
-  height: 35px;
+  width: 190px;
+  height: 25px;
   border: 1px solid black;
   position: fixed;
-  top: 3px;
-  left: 80px;
+  top: 7px;
+  left: 85px;
   border-radius: 40px 40px;
   background-color: white;
 }
-.menu_gg img,
+.menu_gg
 form {
   position: fixed;
-  top: 13px;
-  left: 90px;
+  top: 10px;
+  left: 93px;
+  
 }
-.menu_gg img {
-  top: 17px;
+form i{
+  position: absolute;
   left: 240px;
+  top: 15px;
 }
-.menu_home{
-    width: 702px;
-    height: 35px;
-    border: 0px solid red;
-    position: fixed;
-    left: 290px;
-    top: 5px;
-    padding-left: 2px;
+input{
+  border-radius: 24px;
+  border: none;
+  width: 200px;
+  height: 30px;
+  position: fixed;
+  left: 75px;
+  top: 9px;
 }
-.menu_home_my{
-    width: 300px;
-    height: 33px;
-    border: 1px solid black;
-    float: left;
+
+
+/* menu*/
+
+#menu {
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 8px;
+  left: 850px;
+  background-color: white;
+  width: 400px;
 }
-.menu_home_a{
-    width: 150px;
-    height: 33px;
-    border: 1px solid black;
-    float: left;
-    margin-left: 2px;
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
 }
-.menu_home_b{
-    width: 240px;
-        height: 33px;
-        border: 1px solid black;
-        float: left;
-        margin-left: 2px;
+
+li {
+  position: relative;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a {
+  height: 30px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  background-color: white;
+  color: gray;
+  padding-left: 10px;
+}
+
+ul ul li a {
+  width: 200px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+li a:hover {
+  background-color: red;
+}
+
+ul ul {
+  position: absolute;
+  top: 30px;
+}
+
+ul ul {
+  position: absolute;
+  top: 30px;
+  visibility: hidden;
+}
+
+#menu ul li:hover ul {
+  visibility: visible;
+}
+.list_1 a{
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50% 50%; 
+  padding-left: 1px;
+}
+.list{
+  padding-left: 20px;
+}
+/* fm My home*/
+
+
+.fb_myhome{
+  width: 320px;
+  height: 35px;
+  border: 0px solid white;
+  position: fixed;
+  top: 8px;
+  left: 550px;
+}
+.fb_myhome_1{
+  float: right;
+  width: 100px;
+  height: 30px;
+  border: 2px dotted beige;
 
 }
+
+
 
 /*link*/
 .link_fb {
   width: 120px;
   height: 1500px;
-  border: 1px solid gray;
+  border: 1px solid rgb(240, 240, 235);
   position: fixed;
   top: 65px;
+  background-color: rgb(240, 240, 235);
 }
+.linkfb_1{
+  width: 100;
+  height: 40px;
+  border: 1px hidden rgb(240, 240, 235);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  float: left;
+  padding-left: 20px;
+}
+.linkfb_1 a{
+  background-color: rgb(240, 240, 235);
+  float: center;
+}
+.link_fb p{
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+}
+
+
+.commen_fb_stt{
+  width: 700px;
+    height: 150px;
+    border: 1px solid beige;
+    position: absolute;
+    top: 65px;
+    left: 145px;
+    background-color: white;
+
+}
+.commen_fb_stt_1{
+  width: 100%;
+  height: 57%;
+}
+.commen_fb_stt_1 p{
+  font-size: 14px;
+  float: left;
+  padding-left: 50px;
+  border: 0ch solid beige;
+  width: 100%;
+  height: 100px;
+  
+}
+.commen_fb_stt_1 img{
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.commen_fb_stt_2{
+  width: 100%;
+  height: 30%;
+  border: 1px double beige;
+  float: left;
+}
+.commen_fb_stt_3{
+  width: 230px;
+  height: 100%;
+  float: left;
+  padding-left: 1px;
+  text-align: center;
+  padding-top: 8px;
+}
+.commen_fb_stt_3 a {
+  background-color: white;
+  float: center;
+}
+
+
+
+
+
+
 .stt_fb {
   width: 700px;
   height: 1300px;
   border: 1px solid red;
   position: absolute;
-  top: 65px;
+  top: 235px;
   left: 145px;
 }
+
+/* right*/
+
 .right_met {
   width: 135px;
   height: 100px;
@@ -99,6 +257,11 @@ form {
   top: 65px;
   left: 862px;
 }
+
+
+
+
+
 .right_bot {
   width: 135px;
   height: 500px;
