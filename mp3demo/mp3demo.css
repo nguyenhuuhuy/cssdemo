@@ -71,8 +71,17 @@ input {
     position: absolute;
     top: 540px;
     left: 30px;
-}
 
+}
+.install i{
+    position: absolute;
+    left: 180px;
+    top: 10px;
+    font-size: 30px;
+}
+.install a{
+    text-decoration: none;
+}
 .album {
     width: 80%;
     height: auto;

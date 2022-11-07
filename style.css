@@ -1,5 +1,9 @@
+body{
+  width: 100%;
+  height: auto;
+}
 .fb_container {
-  width: 1000px;
+  width: 50%;
   height: auto;
 }
 /*menu*/
